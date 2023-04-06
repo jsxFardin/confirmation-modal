@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delete modal with Password</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="modal-part">
+      <button id="delete-button" class="modal-button">Delete</button>
+
+      <div id="delete-modal" class="modal">
+        <div class="modal-content">
+          <span id="close">&times;</span>
+          <h2>Confirm Deleting</h2>
+          <p>Are you sure you want to delete this item?</p>
+          <div id="password-container"></div>
+          <div class="button-container">
+            <button id="confirm-button" class="modal-button">Confirm</button>
+            <button id="cancel-button" class="modal-button">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/modal.js"></script>
+  </body>
+</html>
